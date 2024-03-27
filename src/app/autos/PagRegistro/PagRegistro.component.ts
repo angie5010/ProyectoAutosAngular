@@ -61,8 +61,8 @@ export class PagRegistroComponent implements OnInit {
               title: "Mensaje",
               text: "Se grabó con éxito!",
               icon: "info"
-            }).then(()=>this.formulario.reset())
-          }
+            }).then(()=>this.formulario.reset())}
+          
           else{
             Swal.fire({
               title: "Mensaje",

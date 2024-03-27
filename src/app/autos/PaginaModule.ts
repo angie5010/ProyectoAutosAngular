@@ -8,6 +8,9 @@ import { ListaAutosComponent } from "./lista-autos/lista-autos.component";
 import { PagAutoComponent } from "./PagAuto/PagAuto.component";
 import { RouterModule } from "@angular/router";
 import { PagRegistroComponent } from "./PagRegistro/PagRegistro.component";
+import { ClientesComponent } from "./clientes/clientes.component";
+
+
 
 
 @NgModule({
@@ -23,13 +26,15 @@ import { PagRegistroComponent } from "./PagRegistro/PagRegistro.component";
     declarations: [
         ListaAutosComponent,
         PagAutoComponent,
-        PagRegistroComponent
+        PagRegistroComponent,
+        ClientesComponent
         
     ],
     exports: [
         ListaAutosComponent,
         PagAutoComponent,
-        PagRegistroComponent
+        PagRegistroComponent,
+        ClientesComponent
         ]
 })
 

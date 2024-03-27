@@ -14,11 +14,12 @@
               <span class="text-danger" *ngIf="formulario.controls['codigo'].errors?.['codigoValidate']">Solo acepta digitos</span>
             </div>
           </div>
-          <div class="mb-3">
-            <label class="form-label">Confirmar Codigo</label>
-            <input type="text" class="form-control" formControlName="codigo_confirm">
+          <div class="mb-3 row">
+            <label class="form-label" class="col-sm-2 col-form-label">Confirmar Código:</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control"  formControlName="codigo_confirm">
             <span class="text-danger" *ngIf="formulario.errors?.['codigocomparativo']">No son iguales</span>
-
+          </div>
           </div>
           <div class="mb-3 row">
             <label for="staticCodigo" class="col-sm-2 col-form-label">Marca:</label>

@@ -16,13 +16,12 @@ import { UserInterceptorService } from './interceptores/user-interceptor.service
   declarations: [
     AppComponent,
     
-   // ListaAutosComponent, se comentó debido a que se creo Pagina Module y ya se declara allí
-    //AEspacioPipe
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PaginaModule,
+   // PaginaModule,
     UtilitariosModule,
     HttpClientModule
     
